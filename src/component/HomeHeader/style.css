@@ -1,0 +1,132 @@
+.homeHeaderContainer {
+    width: 100%;
+    height: 50px;
+    background-color: #161F2C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeHeaderFirstDiv {
+    height: 100%;
+    background-color: #161F2C;
+    display: flex;
+    align-items: center;
+}
+
+.homeHeaderSecondDiv {
+    width: 210px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerLogoImg {
+    width: 180px;
+    height: 75px;
+    margin-top: 22px;
+}
+
+.drawerBtnImg {
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.gaminiSpotBtn {
+    width: 150px;
+    height: 35px;
+    background-color: #2A3546;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.gaminiSpotBtn:hover {
+    cursor: pointer;
+}
+
+.gamingBtn {
+    width: 55%;
+    height: 100%;
+    background-color: #2283F6;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+}
+
+.gamingBtn2 {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gameLogoImg {
+    width: 15px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.gameLogoImg2 {
+    width: 15px;
+    height: 12px;
+}
+
+.gamingText {
+    font-size: small;
+}
+
+.gamingText2 {
+    font-size: small;
+    color: #93ACD3;
+    padding-right: 5px;
+}
+
+.searchImg {
+    width: 35px;
+    height: 35px;
+    background-color: #2A3546;
+    border-radius: 50%;
+    padding: 9px;
+    margin-left: 20px;
+}
+
+.HomeLoginBtn {
+    border: none;
+    background-color: #2283F6;
+    border-radius: 3px;
+}
+
+.HomeLoginBtn:active {
+    outline: none;
+    background-color: #0c6de5;
+}
+
+.homeRegistrationBtn {
+    border: none;
+    background-color: #FA305C;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.homeRegistrationBtn:active {
+    outline: none;
+    background-color: #ef1c49;
+}
+
+.homeMessageIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}

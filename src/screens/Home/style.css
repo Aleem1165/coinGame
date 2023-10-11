@@ -1,0 +1,43 @@
+.mainHome {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.homeCenterDiv {
+    width: 80%;
+    /* height: 100px; */
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homeSwipeDiv {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+
+.homeSwipeImg {
+    width: 33%;
+    height: 100%;
+
+}
+
+.homeSwipArrowImg {
+    position: absolute;
+    width: 30px;
+    left: -10px;
+}
+
+.homeSwipArrowImg2 {
+    position: absolute;
+    width: 30px;
+    right: -10px;
+}

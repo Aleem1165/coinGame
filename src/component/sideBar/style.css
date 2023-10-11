@@ -1,0 +1,128 @@
+.homeSideBarContainer {
+    width: 55px;
+    /* height: 100vh; */
+    background-color: #161F2C;
+}
+
+.sidebarImgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 5px;
+}
+
+.sidebarImgDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A3546;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.sidebarImgDiv:hover {
+    cursor: pointer;
+    background-color: #2A3546;
+}
+
+.sidebarImg {
+    width: 25px;
+    height: 20px;
+}
+
+.sidebarSpindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.sidebarSpindiv:hover {
+    background-color: #2A3546;
+}
+
+.sidebarSpinImg {
+    width: 40px;
+    height: 35px;
+}
+
+.sidebarLine {
+    width: 70%;
+    height: 1px;
+    background-color: #2A3546;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebarDiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    /* background-color: #2A3546; */
+}
+
+.sidebarDiv2:hover {
+    background-color: #2A3546;
+}
+
+.sidebarDiv22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    background-color: #2A3546;
+}
+
+.sidebar123Img {
+    width: 20px;
+    height: 17px;
+}
+
+.sidebarUpImg {
+    width: 10px;
+    height: 7px;
+    margin-left: 5px;
+}
+
+.sidebarTrophyeImg {
+    width: 20px;
+    height: 17px;
+    margin-top: 5px;
+}
+
+.sidebarTrophyeDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sidebarTrophyeDiv:hover {
+    background-color: #161F2C;
+}
