@@ -6,6 +6,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
 }
 
 .homeHeaderFirstDiv {
@@ -105,7 +107,11 @@
 .HomeLoginBtn {
     border: none;
     background-color: #2283F6;
-    border-radius: 3px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding: 6px 10px;
+    font-weight: bold;
 }
 
 .HomeLoginBtn:active {
@@ -118,6 +124,10 @@
     background-color: #FA305C;
     border-radius: 3px;
     margin-left: 10px;
+    color: white;
+    padding: 6px 10px;
+    font-size: small;
+    font-weight: bold;
 }
 
 .homeRegistrationBtn:active {

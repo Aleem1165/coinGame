@@ -26,7 +26,7 @@ export default function HomeHeader() {
         <img src={searchImg} className="searchImg" />
       </div>
       <div className="homeHeaderSecondDiv">
-        <button className="HomeLoginBtn">Lon in</button>
+        <button className="HomeLoginBtn">Log in</button>
         <button className="homeRegistrationBtn">Registration</button>
         <img src={messageIcon} className="homeMessageIcon" />
       </div>

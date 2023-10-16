@@ -1,7 +1,19 @@
 .homeSideBarContainer {
     width: 55px;
-    /* height: 100vh; */
+    height: 130vh;
     background-color: #161F2C;
+    margin-top: 50px;
+    position: sticky;
+    top: -180px;
+}
+
+.homeSideBarContainer2 {
+    width: 55px;
+    height: 100vh;
+    background-color: #161F2C;
+    margin-top: 50px;
+    position: sticky;
+    top: 0px;
 }
 
 .sidebarImgDiv {
@@ -36,6 +48,12 @@
     width: 25px;
     height: 20px;
 }
+
+.sidebarHomeImg {
+    width: 25px;
+    height: 22px;
+}
+
 
 .sidebarSpindiv {
     display: flex;

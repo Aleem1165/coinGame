@@ -1,32 +1,52 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #0F1923;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222D3C;
+    border-radius: 4px;
+}
+
+
+
 .mainHome {
     display: flex;
     flex-direction: row;
-    background-color: beige;
+    background-color: #0F1923;
 }
 
 .homeCenterDiv {
-    width: 80%;
+    width: 94%;
     /* height: 100px; */
-    background-color: aqua;
+    background-color: #0F1923;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
+    /* position: static; */
 }
 
 .homeSwipeDiv {
     width: 100%;
-    height: 120px;
-    background-color: black;
+    height: 180px;
+    /* background-color: black; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: relative;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .homeSwipeImg {
     width: 33%;
     height: 100%;
+    border-radius: 10px;
 
 }
 
@@ -34,10 +54,845 @@
     position: absolute;
     width: 30px;
     left: -10px;
+    cursor: pointer;
 }
+
+
 
 .homeSwipArrowImg2 {
     position: absolute;
     width: 30px;
     right: -10px;
+    cursor: pointer;
+}
+
+.homeSecondDiv {
+    width: 100%;
+    height: 90px;
+    background-color: #161F2C;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeSecondDivInsideDiv {
+    width: 16%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    font-size: small;
+    background-color: #202A39;
+}
+
+.homeSecondDivInsideDiv1 {
+    width: 15%;
+    height: 100%;
+    background-color: #202A39;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    color: white;
+    font-size: small;
+}
+
+.dailyBonusImg {
+    width: 25%;
+    /* height: 20px; */
+}
+
+.homeThirdDiv {
+    width: 100%;
+    height: 75px;
+    background-color: #202A39;
+    /* background-color: #387b04; */
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.homeThirdDiv1 {
+    /* background-color: #c4cfbb; */
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 5px 0px; */
+    /* padding-bottom: 10px; */
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.homeThirdDiv1Img {
+    width: 50%;
+    height: 50%;
+}
+
+.homeThirdDiv1Line {
+    background-color: #FFDE01;
+    width: 20%;
+    height: 3px;
+    display: none;
+}
+
+.homeThirdDiv1:hover .homeThirdDiv1Line {
+    display: block;
+}
+
+.homeThirdDiv1:hover {
+    background-color: #59667c;
+    border-radius: 10px;
+}
+
+.homeFourthDiv {
+    width: 100%;
+    /* height: 220px; */
+    /* background-color: #202A39; */
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeFourthDivFirstDiv {
+    width: 100%;
+    background-color: #0F1923;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 3px;
+}
+
+.gameaArrowDiv {
+    display: flex;
+    align-items: center;
+}
+
+.gameArrowImg {
+    width: 30px;
+    /* height: 20px; */
+    cursor: pointer;
+}
+
+.gameArrowImg2 {
+    width: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.homeFourTextDiv {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.homeFourTextDivYellow {
+    color: #FFDE01;
+}
+
+.originalGameImg {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.gameImg {
+    width: 13.5%;
+    height: 230px;
+}
+
+.homeProviderImg {
+    width: 13.5%;
+    height: 60px;
+    transition: .3s;
+}
+
+.homeProviderImg:hover {
+    margin-bottom: 10px;
+    /* transition: .2s; */
+    cursor: pointer;
+}
+
+.homeFourthDivSecondDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #202A39;
+}
+
+.gameProviderDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0F1923;
+    height: 80px;
+}
+
+.paymentDiv {
+    width: 85%;
+    height: 90px;
+    background-color: #202A39;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.paymentImg {
+    width: 40%;
+    height: 50%;
+    padding: 5px;
+}
+
+.paymentText {
+    color: white;
+    font-weight: bold;
+}
+
+.paymentBtn {
+    /* height: 80%; */
+    background-color: #469F00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+
+.paymentBtn:active {
+    background-color: #387b04;
+}
+
+.biggestWinnersDiv {
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: #4a87c4; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.biggestWinnersText {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.latestBetsDiv1st {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.biggestWinnersDivSecondDiv {
+    margin-top: 20px;
+    width: 100%;
+    height: 230px;
+    background-color: #161F2C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.biggestWinnersDivBtnDiv {
+    height: 100%;
+    width: 20%;
+    /* background-color: #387b04; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding-left: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.wonAllText {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    /* padding-left: 10px; */
+    text-align: start;
+}
+
+.playNowBtn {
+    width: 75%;
+    height: 22%;
+    border: none;
+    border-radius: 10px;
+    color: #F5F6F7;
+    font-weight: bold;
+    background-color: #F19511;
+}
+
+.playNowBtn:active {
+    background-color: #8e580b;
+}
+
+.gunMenImg {
+    width: 30%;
+    height: 110%;
+    padding-bottom: 12px;
+}
+
+.biggestWinnersDivLastDiv {
+    width: 50%;
+    height: 85%;
+    background-color: #202A39;
+    border-radius: 10px;
+}
+
+.biggestWinnersDivLastDivIndideDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* background-color: #43B309; */
+
+}
+
+.biggestWinnersDivLastDivIndideDiv2 {
+    background-color: #29374B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.firstDiv {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.firstImg {
+    width: 40px;
+}
+
+.firstText {
+    color: #99A4B0;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+
+.firstDivLast {
+    display: flex;
+    flex-direction: row;
+    background-color: #29374B;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.firstDivLast22 {
+    background-color: #202A39;
+    padding: 4px;
+    border-radius: 25px;
+}
+
+.firstDivSecondLast {
+    /* background-color: #8e580b; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.ratingText {
+    color: white;
+    margin-right: 50px;
+    font-size: small;
+}
+
+.firstDivLast1 {
+    font-weight: bold;
+    color: #43B309;
+}
+
+.firstDivLast2 {
+    color: #8C9196;
+    margin-left: 5px;
+}
+
+.latestBetsDiv {
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: #387b04; */
+}
+
+.latestBetsDiv1st {
+    background-color: #0F1923;
+    margin-top: 30px;
+}
+
+.latestBetsDiv2nd {
+    background-color: #161F2C;
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.latestBetsDiv2nd1st {
+    width: 99%;
+    height: 45px;
+    /* background-color: #c8d5e8; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.latestBetsDiv2nd1stLight {
+    width: 99%;
+    height: 45px;
+    background-color: #1D2736;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    /* border-radius: 10px; */
+}
+
+.latestBets0 {
+    width: 15%;
+    /* height: 100%; */
+    /* background-color: #5596c1; */
+    display: flex;
+    align-items: center;
+    color: #99A4B0;
+    font-size: medium;
+}
+
+.latestBets1 {
+    width: 15%;
+    /* height: 100%; */
+    /* background-color: #c3d2dc; */
+    color: #99A4B0;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestBets2 {
+    width: 15%;
+    color: #99A4B0;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.latestBets2Green {
+    width: 15%;
+    color: #43B309;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.latestBets2Gray {
+    width: 15%;
+    color: #5C697A;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* ================= */
+
+.originalGameDiv1 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv1 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg1 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv1:hover .originalGameImg1 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv1:hover .originalGamePlayDiv1 {
+    display: flex;
+    z-index: 1;
+}
+
+
+/* ===== */
+.originalGameDiv2 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv2 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg2 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv2:hover .originalGameImg2 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv2:hover .originalGamePlayDiv2 {
+    display: flex;
+    z-index: 1;
+}
+
+/*  */
+.originalGameDiv3 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv3 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg3 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv3:hover .originalGameImg3 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv3:hover .originalGamePlayDiv3 {
+    display: flex;
+    z-index: 1;
+}
+
+/*  */
+.originalGameDiv4 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv4 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg4 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv4:hover .originalGameImg4 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv4:hover .originalGamePlayDiv4 {
+    display: flex;
+    z-index: 1;
+}
+
+.originalGameDiv5 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv5 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg5 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv5:hover .originalGameImg5 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv5:hover .originalGamePlayDiv5 {
+    display: flex;
+    z-index: 1;
+}
+
+/*  */
+
+.originalGameDiv6 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv6 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg6 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv6:hover .originalGameImg6 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv6:hover .originalGamePlayDiv6 {
+    display: flex;
+    z-index: 1;
+}
+
+/*  */
+
+.originalGameDiv7 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.originalGamePlayDiv7 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.originalGameImg7 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.originalGameDiv7:hover .originalGameImg7 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.originalGameDiv7:hover .originalGamePlayDiv7 {
+    display: flex;
+    z-index: 1;
+}
+
+/*  */
+
+.topGameDiv1 {
+    width: 13.5%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.topGamePlayDiv1 {
+    width: 100%;
+    height: 230px;
+    background-color: #000000b0;
+    position: absolute;
+    display: none;
+    opacity: 0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.topGameImg1 {
+    width: 100%;
+    height: 230px;
+    transition: .3s;
+}
+
+.topGameDiv1:hover .topGameImg1 {
+    transform: scale(1.1);
+    padding: 5px;
+    transition: .3s;
+    border-radius: 24px;
+
+}
+
+.topGameDiv1:hover .topGamePlayDiv1 {
+    display: flex;
+    z-index: 1;
 }
